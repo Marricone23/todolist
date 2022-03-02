@@ -51,22 +51,6 @@ function newElement() {
       document.getElementById("myUl").append(li);
     }
     document.getElementById("myInput").value = "";
-
     closeButton();
-    hideElemet();
-    //let span = document.createElement("SPAN");
-    //let txt = document.createTextNode("\u00D7");
-    ///span.className = "close";
-    //span.append(txt);
-    //li.append(span);
-      
-    //for (let i = 0; i < close.length; i++) {
-      //close[i].addEventListener('click', function() {
-        //let div = this.parentElement;
-        //div.style.display = "none";
-      //});
-    //}
+    hideElemet(); 
   }
-  //newElement();
-  //
-//});
